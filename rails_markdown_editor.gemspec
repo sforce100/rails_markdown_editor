@@ -1,4 +1,5 @@
-$:.push File.expand_path("../lib", __FILE__)
+# $:.push File.expand_path("../lib", __FILE__)
+lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 # Maintain your gem's version:
 require "rails_markdown_editor/version"
@@ -18,6 +19,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.0"
-  s.add_dependency "codemirror-rails"
+  s.add_dependency "codemirror-rails", "~> 5.0"
 
 end

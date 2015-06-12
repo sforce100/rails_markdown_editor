@@ -1,4 +1,5 @@
 require "rails_markdown_editor/version"
+require 'codemirror-rails'
 
 module Rails
   module Markdown
