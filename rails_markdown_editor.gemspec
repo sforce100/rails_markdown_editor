@@ -11,9 +11,10 @@ Gem::Specification.new do |s|
   s.authors     = ["hzh"]
   s.email       = ["sforce1000@gmail.com"]
   s.homepage    = "homepage"
-  s.summary     = "Summary of RailsMarkdownEditor."
-  s.description = "Description of RailsMarkdownEditor."
-  s.license     = "MIT"
+  s.summary       = %q{pomelo client for ruby}
+  s.description   = %q{pomelo client for ruby.}
+  s.homepage      = ""
+  s.license     = ""
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
