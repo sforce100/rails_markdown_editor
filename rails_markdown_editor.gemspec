@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.version     = Rails::Markdown::Editor::VERSION
   s.authors     = ["hzh"]
   s.email       = ["sforce1000@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsMarkdownEditor."
-  s.description = "TODO: Description of RailsMarkdownEditor."
+  s.homepage    = "homepage"
+  s.summary     = "Summary of RailsMarkdownEditor."
+  s.description = "Description of RailsMarkdownEditor."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
