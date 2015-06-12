@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 # Declare your gem's dependencies in rails_markdown_editor.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -13,4 +14,4 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'codemirror-rails'
+# gem 'codemirror-rails'
